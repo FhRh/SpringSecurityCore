@@ -20,7 +20,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping(value="/mypage")
-    public String myPage() throws Exception {
+    public String myPage(){
 
         return "user/mypage";
     }
